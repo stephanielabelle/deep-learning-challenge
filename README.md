@@ -18,6 +18,7 @@ Optimized neural network model is available in the file [AlphabetSoupCharity_Opt
     - consolidated application types with low number of counts into an "Other" category
   - "AFFILIATION" (Industry sector affiliation)
   - "CLASSIFICATION" (Government classification)
+    - consolidated classification types with low number of counts into an "Other" category
   - "USE_CASE"
   - "ORGANIZATION" (type)
   - "STATUS" (active status)
@@ -28,10 +29,11 @@ Optimized neural network model is available in the file [AlphabetSoupCharity_Opt
 - Removed Columns:
   - "EIN" (ID column)
   - "SPECIAL_CONSIDERATIONS"
-    - low number of entries with special considerations 
-Any columns that had more than 10 unique values were binned at an appropriate cutoff point.
-Categorical variables were encoded with Pandas "get_dummies" function.
-Preprocessed data was split with Scikit Learn train_test_split to create X_train & y_train for model training, and X_test & y_test to test the model
+    - low number of entries with special considerations
+
+Any columns that had more than 10 unique values were binned at an appropriate cutoff point.  
+Categorical variables were encoded with Pandas "get_dummies" function.  
+Preprocessed data was split with Scikit Learn train_test_split to create X_train & y_train for model training, and X_test & y_test to test the model.  
  
 #### Compiling, Training, and Evaluating the Model
 Neurons:
