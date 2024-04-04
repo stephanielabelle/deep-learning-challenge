@@ -37,7 +37,7 @@ Preprocessed data was split with Scikit Learn train_test_split to create X_train
  
 #### Compiling, Training, and Evaluating the Model
 Neurons:
-- A total of 90 neurons were used for the model based on recommended hyperparameter tuning guidelines of 2-3X as many neurons as input features.
+- A total of 90 neurons were used for the model based on recommended hyperparameter tuning guidelines of 2-3X as many neurons as input features.  
 Layers:
 - Three layers were utilized.  There was marginally better accuracy of the model with 3 instead of 2.  
 Activation Functions:
