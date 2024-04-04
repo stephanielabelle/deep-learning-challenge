@@ -3,7 +3,7 @@
 ## Module 21
 
 ### Overview
-This repository outlines the development of a neural network model with TensorFlow utilizing data from the nonprofit foundation Alphabet Soup.  The objective of this model is to determine the applicants that will have the best chance of a success if provided with funding.
+This repository outlines the development of a neural network model with TensorFlow Keras utilizing data from the nonprofit foundation Alphabet Soup.  The objective of this model is to determine the applicants that will have the best chance of a success if provided with funding.
 
 The csv data is available at ["https://static.bc-edx.com/data/dl-1-2/m21/lms/starter/charity_data.csv"](https://static.bc-edx.com/data/dl-1-2/m21/lms/starter/charity_data.csv).
 
