@@ -39,11 +39,11 @@ Preprocessed data was split with Scikit Learn train_test_split to create X_train
 Neurons:
 - A total of 90 neurons were used for the model based on recommended hyperparameter tuning guidelines of 2-3X as many neurons as input features.
 Layers:
-- Three layers were utilized.  There was marginally better accuracy of the model with 3 instead of 2.
-Activation Fucntions:
+- Three layers were utilized.  There was marginally better accuracy of the model with 3 instead of 2.  
+Activation Functions:
 - This model utilized 2 different activation functions
   - Layer 1-3, relu was used for easy computation.
-  - Layer 4 (output), sigmoid was utilized as it has an output of 0 or 1
+  - Layer 4 (output), sigmoid was utilized as it has an output of 0 or 1  
 Target Performance:
 - A target of >75% was achieved post-optimization.
 - The model was optimized with the following modification:
